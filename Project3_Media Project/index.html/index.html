@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to Media Project</h1>
+
+    <table>
+        <tr>
+            <td><img src="../media.jpg"alt="media" height="90px" width="100px"></td>
+            <td>
+                <nav>
+                    <ul>
+                        <li><a href="#AboutProject">About this Project</a></li>
+                        <li><a href="#AdditionalMedia">Additional Media</a></li>
+                        <li><a href="#Embeddingvideos">Embedding Videos</a></li>
+                    </ul>
+                </nav>
+            </td>
+        </tr>
+    </table>
+
+    <section id="AboutProject">
+        <h2>About Project</h2>
+        <p>This project taught me how to use modern HTML tags. <br />
+            I learned to insert an audio five using audio tag <br />
+            Learned to insert video using video tag <br />
+            Also came to know how to embedd a video via youtube
+        </p>
+    </section>
+
+    <section id="AdditionalMedia">
+        <h2>Additional Media</h2>
+        <table  border="1" style="border-spacing: 50px;">
+            <thead>
+                <th>Audio</th>
+                <th>Video</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><audio src="song.mp3" controls></audio></td>
+                    <td><video src="Video.mp4" controls height="400px" autoplay muted></video></td>
+                </tr>
+            </tbody>
+            
+        </table>
+
+    </section>
+
+    <section id="Embeddingvideos">
+        <h2>Embedding Videos</h2>
+        <table>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/0oe7CF-TY_U"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/fb4rgYbi84c?autoplay=1&mute=1" frameborder="0"></iframe></td>
+            </tr>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/0oe7CF-TY_U"></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/fb4rgYbi84c?autoplay=1" frameborder="0"></iframe></td>
+            </tr>
+        </table>
+    </section>
+
+
+
+
+</body>
+</html>
