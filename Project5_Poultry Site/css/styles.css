@@ -1,0 +1,197 @@
+body{
+    background-color: rgba(230, 244, 207, 0.48);;
+    margin: 0 0;
+}
+
+.mainDiv{
+    margin: 0px 0px;
+    margin-top: 0;
+     background-image: url("https://image3.jdomni.in/banner/04022021/9C/9E/B1/3C7AC676517F25A46BD86D5A4C_1612428911522.jpg?output-format=webp"); 
+
+    height: 500px;
+    
+}
+
+.navbar {
+    background-color: #75b90a;
+    position: sticky;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:greenyellow;
+    text-decoration-color: #75b90a;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #75b90a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .alink:link, .alink:visited {
+    margin-left: 42%;
+    background-color: #75b90a;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+  }
+  
+  .alink:hover, a:active {
+    background-color: #75b90a;
+  }
+
+
+
+.ggg{
+    margin-top:0;
+}
+
+.thirdrdcontainer{
+    padding: 0;
+    margin: 0;
+    line-height: inherit;
+}
+
+nav ul{
+    align-items: center;
+    display: flex;
+    height: 65px;
+    list-style-type: none;
+    
+}
+nav ul li{
+    align-items: center;
+    color: white;
+    display: inline-flex;
+    padding:0 30px;
+}
+
+#PoultryFarmEquipment{
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: 15px 20px;
+    padding: 4px;
+    
+}
+
+.farmEquipment{
+    margin-top: 5px;
+}
+
+.Feeds{
+    margin-top: 10px;
+}
+
+#PoultryFeeds{
+    background-color: white;
+    padding: 4px;
+    margin: 15px 20px;
+    margin-bottom: 5px;
+}
+
+
+.chicks{
+    background-color: white;
+    margin-bottom: 5px;
+    margin: 15px 20px;
+}
+
+#AboutUs{
+    background-color: white;
+    margin-bottom: 5px;
+    padding: 4px;
+    margin: 15px 20px;
+}
+#Gallery{
+    background-color: white;
+    margin-bottom: 5px;
+    padding: 4px;
+    margin: 15px 20px;
+    
+}
+.Gall{
+    margin-top: 5px;
+}
+
+.Test{
+    
+    margin-bottom: 5px;
+    padding: 4px;
+    margin: 15px 20px;
+    
+    
+}
+
+#ContactUs{
+    
+    background-color: white;
+    margin-bottom: 5px;
+    padding: 4px;
+    margin: 15px 20px;
+    
+}
+
+.map{
+  background-color: white;
+    margin-bottom: 5px;
+    padding: 4px;
+    margin: 15px 20px;
+}
+
+.foot{
+  background-color:#75b90a;
+}
+
+.foot a{
+  color: white;
+}
